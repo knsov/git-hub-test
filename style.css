@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+}
+.container{
+    max-width: 1500px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+.logo h1{
+    font-size: 3em;
+    color: #00aaff;
+    margin-left: 100px;
+}
+.auth-links button{
+    border-radius: 15px;
+    font-size: 15px;
+    margin: 10px;
+    padding: 10px 20px;
+    background-color:black;
+    color: white;
+    border-color:white;
+    border: none;
+}
+.auth-links button:hover{
+    cursor: pointer;
+    background-color:slategrey;
+    transition: 0.5s;
+}
+.left{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    background: #00aaff;
+    color: black;
+    height: 100vh;
+}
+.left h2{
+    font-size: 70px;
+    text-align: left;
+    margin-bottom: 20px;
+}
+.adress-input{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    flex-direction: column;
+}
+.adress-input input{
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 1em
+}
+.adress-input button{
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 10px 40px;
+    border: none;
+    cursor: pointer;
+}
+.adress-input button:hover{
+    cursor: pointer;
+    background-color: slategrey;
+    transition: 0.5s;
+}
+.input-holder{
+    display: flex;
+}
+.input-holder input{
+    width: 280px;
+}
+section{
+    background-color: #00aaff;
+}
+.right{
+    width: 50%;
+}
+.main-section{
+    display: flex;
+}
+.listerine{
+    width: 100%;
+    height: 300px;
+} 
+.right img{
+    width: 100%;
+}
